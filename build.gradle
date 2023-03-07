@@ -12,6 +12,11 @@ repositories {
 	mavenCentral()
 }
 
+dependencies {
+	// implementation 'com.github.SurfaceTens: proyectoLocalLibrerias:1.0'	
+	// implementation 'com.github.usuario:repositorio:versionTag'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
